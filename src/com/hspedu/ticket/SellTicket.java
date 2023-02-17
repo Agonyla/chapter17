@@ -45,7 +45,7 @@ class SellTicket01 extends Thread {
     }
 }
 
-class SellTicket02 extends Thread {
+class SellTicket02 implements Runnable {
 
     private static int ticketNum = 100;
 
