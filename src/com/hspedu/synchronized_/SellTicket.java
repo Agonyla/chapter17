@@ -31,6 +31,14 @@ public class SellTicket {
         sellTicket041.start();
         sellTicket042.start();
         sellTicket043.start();
+
+
+        // 这样不会超卖  不需要加static
+
+        // SellTicket04 sellTicket04 = new SellTicket04();
+        // new Thread(sellTicket04).start();
+        // new Thread(sellTicket04).start();
+        // new Thread(sellTicket04).start();
     }
 }
 
